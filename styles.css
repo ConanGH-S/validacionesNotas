@@ -44,7 +44,10 @@ button {
 button:hover {
 	filter: contrast(60%);
 }
-
+.finalDisabled {
+	filter: brightness(10%);
+	transition: filter 300ms ease-out;
+}
 .divResultado {
 	display: flex;
 	flex-direction: column;
